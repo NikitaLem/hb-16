@@ -8996,7 +8996,7 @@ const Pr = eo(Cc);
 var _c,
   is = Cc;
 (_c = is.createRoot), is.hydrateRoot;
-const sp = "./happy-piano-BDvucGnr.mp3",
+const sp = "./assets/happy-piano-BDvucGnr.mp3",
   ap = { BASE_URL: "/", DEV: !1, MODE: "production", PROD: !0, SSR: !1 },
   os = (e) => {
     let t;
@@ -9729,10 +9729,10 @@ const Vp = ({ onClick: e }) => {
       })
     );
   },
-  Wp = "./cake-alygYKTE.jpg",
-  Hp = "./vilka--Tywk2aL.png",
-  Qp = "./hearth-DvfY-36u.jpg",
-  Kp = "./fishing-CyIgVsOW.jpg",
+  Wp = "./assets/cake-alygYKTE.jpg",
+  Hp = "./assets/vilka--Tywk2aL.png",
+  Qp = "./assets/hearth-DvfY-36u.jpg",
+  Kp = "./assets/fishing-CyIgVsOW.jpg",
   Yp =
     "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2025%2025'%3e%3ctitle%3eArtboard-35%3c/title%3e%3cg%20id='Left-2'%20data-name='Left'%3e%3cpolygon%20points='24%2012.001%202.914%2012.001%208.208%206.706%207.501%205.999%201%2012.501%207.5%2019.001%208.207%2018.294%202.914%2013.001%2024%2013.001%2024%2012.001'%20style='fill:%23232326'/%3e%3c/g%3e%3c/svg%3e",
   Xp =
