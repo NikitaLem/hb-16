@@ -48,7 +48,7 @@ export const Card = ({
       <div
         ref={ref}
         className="tw-min-h-full tw-min-w-full tw-p-4 tw-flex tw-items-center tw-justify-center 
-				tw-text-gray-700 tw-text-xl tw-bg-red-200 tw-flex-col tw-text-center card"
+				tw-text-gray-700 tw-text-2xl tw-bg-red-200 tw-flex-col tw-text-center card"
       >
         {cardNumber > flippedCardNumber && (
           <div className="tw-flex tw-gap-4">

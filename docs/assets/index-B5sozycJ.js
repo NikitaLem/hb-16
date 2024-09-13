@@ -9702,7 +9702,7 @@ const Vp = ({ onClick: e }) => {
         children: P.jsxs("div", {
           ref: l,
           className: `tw-min-h-full tw-min-w-full tw-p-4 tw-flex tw-items-center tw-justify-center 
-				tw-text-gray-700 tw-text-xl tw-bg-red-200 tw-flex-col tw-text-center card`,
+				tw-text-gray-700 tw-text-2xl tw-bg-red-200 tw-flex-col tw-text-center card`,
           children: [
             r > u &&
               P.jsx("div", {
@@ -9796,11 +9796,15 @@ const Vp = ({ onClick: e }) => {
         {
           text: P.jsxs(P.Fragment, {
             children: [
-              "Никогда не забывай об одной истине:",
+              "Это уже четвертый раз, когда я делаю открытку на твой день рождения.",
+              P.jsx("br", {}),
+              "По одной точке нельзя определить куда движется объект или предсказать погоду. Но четырех точек достаточно с лихвой!",
+              P.jsx("br", {}),
+              "По ним я точно могу определить одну истину:",
               P.jsx("br", {}),
               "Ты солнышко, чудо и самая лучшая в мире!",
               P.jsx("br", {}),
-              "И это не я говорю - так просто есть.",
+              "И это не мои слова - это то как есть.",
               P.jsx("br", {}),
               "С ДНЕМ РОЖДЕНИЯ!!!",
             ],
