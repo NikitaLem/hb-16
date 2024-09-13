@@ -1,0 +1,11 @@
+.card {
+  filter: opacity(0.5);
+}
+
+.flip-enter {
+  transform: rotateX(0deg);
+}
+.flip-enter-active {
+  transform: rotateX(360deg);
+  transition: transform 1500ms;
+}

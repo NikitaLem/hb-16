@@ -1,0 +1,10 @@
+.arrow-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: background-color 200ms;
+}
+
+.arrow-button:hover {
+  opacity: 0.5;
+}

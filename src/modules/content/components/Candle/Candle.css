@@ -1,0 +1,39 @@
+.fire-icon {
+  position: relative;
+  width: 60px;
+  height: 100px;
+}
+
+.fire-icon_fire {
+  cursor: pointer;
+}
+
+.fire-icon_fire::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 20px;
+  height: 40px;
+  background: linear-gradient(to bottom, white 60%, yellow 100%);
+  border-radius: 50% 50% 20% 20%;
+}
+
+.fire-icon_fire:hover::after {
+  transform: scale(1.1);
+}
+
+.fire-icon::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 22px;
+  width: 16px;
+  height: 20px;
+  border-radius: 20% 20% 0 0;
+  background: linear-gradient(
+    to bottom,
+    rgb(251, 172, 172) 60%,
+    rgb(255, 132, 159) 100%
+  );
+}

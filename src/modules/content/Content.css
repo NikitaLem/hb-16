@@ -1,0 +1,15 @@
+.card_movable {
+  transition: transform 500ms;
+}
+
+.card-left {
+  transform: translateX(-100%);
+}
+
+.card-center {
+  transform: translateX(0);
+}
+
+.card-right {
+  transform: translateX(100%);
+}
