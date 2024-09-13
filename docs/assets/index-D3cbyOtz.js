@@ -9847,7 +9847,7 @@ const Vp = ({ onClick: e }) => {
       ],
     });
   },
-  Zp = "./cake-C_e_p9uG.svg",
+  Zp = "./assets/cake-C_e_p9uG.svg",
   Jp = () => {
     const [e, t] = ur((r) => [r.started, r.setStarted]),
       n = le.useRef(null);
